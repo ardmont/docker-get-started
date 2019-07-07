@@ -2,9 +2,9 @@ version: "3"
 services:
   web:
     # replace username/repo:tag with your name and image details
-    image: ardmont/get-started:part2
+    image: ardmont/get-started:part4
     deploy:
-      replicas: 3
+      replicas: 7
       resources:
         limits:
           cpus: "0.1"
